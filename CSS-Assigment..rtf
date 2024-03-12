@@ -1,0 +1,269 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Calibri;}{\f1\fnil\fcharset0 Arial Black;}{\f2\fnil Calibri;}}
+{\*\generator Riched20 10.0.22621}\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\f0\fs22\lang9                          \par
+                     \b\f1\fs40 (CSS,CSS-3  Assigment)\par
+ \par
+\f0\fs36 Q-1 \f2  What are the benefits of using CSS? \par
+\b0\f0\fs28\lang1033 - CSS, or Cascading Style Sheets, is a fundamental technology for web development that offers several beh1 \{\par
+    color: blue;\par
+    font-size: 24px;\par
+\}h1 \{\par
+    color: blue;\par
+    font-size: 24px;\par
+\}h1 \{\par
+    color: blue;\par
+    font-size: 24px;\par
+\}h1 \{\par
+    color: blue;\par
+    font-size: 24px;\par
+\}h1 \{\par
+    color: blue;\par
+    font-size: 24px;\par
+\}h1 \{\par
+    color: blue;\par
+    font-size: 24px;\par
+\}nefits:\par
+- Separation of Concerns ,Consistency,Flexibility and Control,Ease of Maintenance,Page Load Times,Responsive Design,Modularity and Reusability,Cross-Browser Compatibility,Enhanced SEO\par
+\par
+\b\fs36 Q-2What are the disadvantages of CSS?\par
+\b0\fs32 - \fs28 CSS, while a powerful tool for web styling, does come with its set of disadvantages\par
+- Browser Compatibility: One of the biggest challenges with CSS is ensuring consistent rendering across different web browsers.\par
+- Complexity: CSS can become complex, especially in larger projects or when dealing with intricate layouts. Managing CSS files, dealing with specificity issues, and debugging styling problems can be time-consuming and challenging.\par
+- Maintenance Overhead: As a project grows, maintaining CSS becomes more challenging. Making changes to stylesheets can have unintended consequences.\par
+- Performance Impact: Poorly optimized CSS can impact website performance, leading to slower page load times and rendering issues. Overuse of CSS.\par
+\b\par
+\fs36 Q-3 What is the difference between CSS2 and CSS3? \par
+\b0\fs32 - CSS2 and CSS3 are different versions of the Cascading Style Sheets (CSS) language, each introducing new features and enhancements over its predecessor. Here are the key differences between CSS2 and CSS3.\par
+- New Features: CSS3 introduces a wide range of new features and enhancements that were not present in CSS2. These include advanced selectors  new layout modules  2D and 3D transformations, transitions, animations, gradients, shadows, and more.\par
+- Media Queries: CSS3 introduces media queries, which allow developers to apply different styles based on various device characteristics such as screen size, resolution, orientation, and media type.\par
+- Selectors: CSS3 introduces new selectors that provide more powerful ways to target elements in the DOM, such as the :nth-child() pseudo-class, attribute selectors, and advanced combinators.\par
+\par
+\b\fs36 Q-4 \f2  Name a few CSS style components\f0 ?\b0\par
+\fs32 - Typography,Colors,Layout,Box Model,Backgrounds\par
+Borders,Transitions and Animations,Flexbox and Grid Layout\par
+,Responsive Design,Transformations\par
+\par
+\b\fs36 Q-5What do you understand by CSS opacity? \b0\par
+\fs32 - CSS opacity is a property that controls the transparency of an element, allowing you to make it partially see-through. Opacity is specified as a value between 0 and 1, where 0 indicates complete transparency (the element is invisible).\par
+   ex-    selector \{\par
+    opacity: value; /* Where value is a number between \par
+ 0 and 1 */\par
+\}\par
+- It's important to note that the opacity property affects the entire element, including its children. This means that if you set the opacity of a parent element to less than 1, all of its child elements will inherit the same level of transparency.\par
+\b\par
+\fs36 Q-6 \f2  How can the background color of an element be changed? \f0\par
+\b0\fs32 - The background color of an element can be changed using the CSS background-color property. This property allows you to specify a color value that will be used as the background color of the selected element. Here's how you can use it.\par
+- ex-selector \{\par
+    background-color: color;\par
+\}\par
+-  .element \{\par
+    background-color: red;\par
+\}\par
+- Keywords: Common color names like red, blue, green, etc.\par
+Hexadecimal: Hex codes representing RGB values, such as #ff0000 for red.\par
+RGB: RGB color values using the rgb() function, such as rgb(255, 0, 0) for red.\par
+RGBA: RGBA color values using the rgba() function, which includes an alpha (opacity) channel, such as rgba(255, 0, 0, 0.5) for semi-transparent red.\par
+- example\par
+.another-element \{\par
+    background-color: #6495ED;\par
+\}\par
+/* Change background color to semi-transparent green */\par
+.transparent-element \{\par
+    background-color: rgba(0, 255, 0, 0.5);\par
+\}\par
+\b\fs36 Q-7 How can image repetition of the backup be controlled? \b0\par
+\fs32 - Image repetition of the background can be controlled using the CSS background-repeat property. This property allows you to specify whether and how an image is repeated both horizontally and vertically within its containing element.\par
+- \par
+repeat-x: The background image is repeated only horizontally.\par
+repeat-y: The background image is repeated only vertically.\par
+no-repeat: The background image is not repeated. It's only displayed once.\par
+example-\par
+selector \{\par
+    background-repeat: value;\par
+   background-repeat: no-repeat\par
+\}\par
+\par
+\par
+\b\fs36 8 \f2  What is the use of the background-position property? \b0\f0\fs32\lang16393\par
+- The background-position property in CSS is used to specify the initial position of a background image within its containing element. It allows you to control where the background image is placed relative to the element's border box.\par
+- Keyword values: Common keywords like top, bottom, left, right, and center to align the background image relative to the element.\par
+Length values: Length measurements like px, em, or percentages (%) to specify precise horizontal and vertical positions.\par
+Percentage values: Percentages indicating the position relative to the size of the background positioning area. For example, 50% 50% would center the background image both horizontally and vertically.\par
+example- .element \{\par
+    background-position: center center;\par
+\}\par
+\par
+/* Align the background image to the top right corner */\par
+.another-element \{\par
+    background-position: top right;\par
+\}\par
+\par
+/* Position the background image 20 pixels from the left and 50% from the top */\par
+.positioned-element \{\par
+    background-position: 20px 50%;\par
+\}\lang1033\par
+\b\par
+\fs36 Q-9 \f2 Which property controls the image scroll in the bac\f0\lang16393 kground\par
+\b0\fs32 -scroll: The background image scrolls along with the content as the user scrolls down the page. This is the default behavior.\par
+fixed: The background image remains fixed in its position relative to the viewport, meaning it does not move as the user scrolls.\par
+local: The background image scrolls with the element's contents, rather than the entire page. This behavior is less commonly used.\par
+example- \par
+.element \{\par
+    background-attachment: scroll;\par
+\}\par
+\par
+/* Fix the background image position relative to the viewport */\par
+.fixed-background \{\par
+    background-attachment: fixed;\par
+\}\par
+\par
+/* Scroll the background image with the element's content */\par
+.local-scroll-background \{\par
+    background-attachment: local;\par
+\}\lang1033\par
+\b\fs36\par
+Q-10 Why should background and color be used as separate properties? \par
+\b0\fs28 -  Clarity and Readability: Separating background and color properties makes the CSS code clearer and easier to understand. It explicitly distinguishes between setting the background of an element and setting the text color, improving readability for developers.\par
+Modularity and Reusability: By separating these properties, you can create modular CSS rules that can be reused across different elements or components with different background and text colors. This promotes code reusability and helps maintain a consistent design language throughout a website or web application.\par
+Flexibility in Styling: Separating background and color properties provides more flexibility in styling elements. You can independently adjust the background color or image without affecting the text color, and vice versa. This allows for finer control over the visual presentation of elements.\par
+Override Specificity: In CSS, properties with more specificity take precedence over those with less specificity. By separating background and color properties, you avoid inadvertently overriding one property with another when targeting the same element.\par
+\b\par
+\fs36 Q-11 \f2  How to center block elements using CSS1?\par
+\b0\f0\fs28\lang16393 - Auto Margins:\par
+You can use auto margins to horizontally center block-level elements within their containing block. This method relies on setting the left and right margins of the element to auto, causing the browser to automatically distribute the available space equally on both sides, effectively centering the element. This method only works for horizontally centering block elements.\f2\lang1033  \par
+\f0\lang16393 example- \par
+.centered-element \{\par
+    margin-left: auto;\par
+    margin-right: auto;\par
+\}\par
+-Text Alignment:\par
+If the block element contains text content, you can use the text-align property on its parent element to horizontally center the text content within it. This method won't work for non-text content.\par
+example-\par
+ .parent-element \{\par
+    text-align: center;\par
+\}\b\par
+\fs36 Q-12 How to maintain the CSS specifications? \par
+\b0 - \fs28 Maintaining CSS specifications involves several key practices to ensure Internal Stylesheet: CSS can be included within the <style> element in the <head> section of an HTML document. This method allows you to define styles that apply to the entire page or specific sections.or organization. Here are some tips for maintaining CSS specifications.\par
+- Consistent Naming Conventions,Modularization,Comments and Documentation,Prefixing and Vendor Specific Styles,Responsive Design\fs36\par
+\b Q-13 \f2  What are the ways to integrate CSS as a web page? \par
+\b0\f0\fs28\lang1033 -Inline Styles: CSS styles can be applied directly to individual HTML elements using the style attribute\par
+- example\par
+<p style="color: red; font-size: 16px;">This is a paragraph with inline styles.</p>\par
+-Internal Stylesheet: CSS can be included within the <style> element in the <head> section of an HTML document. This method allows you to define styles that apply to the entire page or specific sections.\par
+-example \par
+<head>\par
+    <style>\par
+        body \{\par
+            font-family: Arial, sans-serif;\par
+        \}\par
+        h1 \{\par
+            color: blue;\par
+        \}\par
+    </style>\par
+</head>\par
+-external CSS:  CSS can be defined in an external CSS file and linked to HTML documents using the <link> element. This method promotes code reusability and maintainability by separating CSS from HTML.\par
+example\par
+<head>\par
+    <link rel="stylesheet" type="text/css" href="styles.css">\par
+</head>\par
+\b\fs36 Q-14 \f2 What is embedded style sheets? \f0\fs28\lang16393\par
+\b0\fs36\lang1033 -\fs28\par
+Embedded stylesheets, also known as internal stylesheets, refer to CSS styles that are defined directly within an HTML document using the <style> element. With embedded stylesheets, CSS rules are placed within the <style> tags in the <head> section of an HTML document.\par
+example \par
+<!DOCTYPE html>\par
+<html lang="en">\par
+<head>\par
+    <meta charset="UTF-8">\par
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">\par
+    <title>Embedded Stylesheet Example</title>\par
+    <style>\par
+        /* Embedded Stylesheet */\par
+        body \{\par
+            font-family: Arial, sans-serif;\par
+            background-color: #f0f0f0;\par
+        \}\par
+        h1 \{\par
+            color: blue;\par
+        \}\par
+        p \{\par
+            font-size: 16px;\par
+            line-height: 1.5;\par
+        \}\par
+    </style>\par
+</head>\par
+<body>\par
+    <h1>Welcome to Embedded Stylesheets</h1>\par
+    <p>This is an example of using embedded stylesheets within an HTML document.</p>\par
+</body>\par
+</html>\par
+\b\fs36 Q-15 \f2 What are the external style sheets? \b0\par
+\f0 - \par
+\fs28 External stylesheets are separate files containing CSS (Cascading Style Sheets) rules that define the presentation and layout of HTML documents. These CSS files are external to the HTML documents and are linked to them using the <link> element within the <head> section of the HTML document.\par
+- Separation of Concerns: External stylesheets allow for a clear separation between the structure (HTML) and presentation (CSS) of a web page. This separation makes the code more organized, maintainable, and easier to understand.\par
+Code Reusability: By placing CSS rules in external files, you can reuse the same styles across multiple HTML documents. This promotes consistency in design and layout throughout a website.\par
+example \par
+<!DOCTYPE html>\par
+<html lang="en">\par
+<head>\par
+    <meta charset="UTF-8">\par
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">\par
+    <title>External Stylesheet Example</title>\par
+    <link rel="stylesheet" href="styles.css">\par
+</head>\par
+<body>\par
+    <!-- Content of the HTML document -->\par
+</body>\par
+</html>\b\par
+\fs36 Q-16 What are the advantages and disadvantages of using external style sheets? \par
+\b0 advantages\par
+\fs28 -Modularity and Reusability: External stylesheets promote modularity by separating CSS code from HTML, making it easier to reuse styles across multiple web pages. This modularity improves code maintainability and reduces redundancy.\par
+\fs32 Consistency: External stylesheets ensure consistent styling across an entire website. By linking multiple HTML pages to the same stylesheet, changes made to the stylesheet are automatically applied to all linked pages, ensuring uniformity in design.\fs40\par
+\fs36 disadvantages\par
+\fs28 Dependency: External stylesheets introduce a dependency between HTML and CSS files. If the external CSS file fails to load or is unavailable, the styling of the HTML document may be compromised, leading to an inconsistent user experience.\par
+Additional HTTP Request: Each external stylesheet linked to an HTML document requires an additional HTTP request, which can slightly impact page load times, particularly for websites with many external resources.\fs36\par
+\b Q-17 \f2  What is the meaning of the CSS selector? \f0\par
+\b0\fs28  - In CSS (Cascading Style Sheets), a selector is a pattern used to select HTML elements to which a particular set of styles will be applied. Selectors target specific elements within an HTML document based on various criteria, such as element type, class, ID, attributes, or their hierarchical relationships.\par
+type of selectors\par
+Element Selector, class selector,id selector, universal selector,\par
+desented selector , child selector, \b\par
+\fs36 Q-18 \f2  What are the media types allowed by CSS? \par
+\b0\f0\fs28 - CSS allows you to specify different stylesheets for different media types, allowing for tailored styling depending on the type of device or output medium. Here are the media types allowed by CSS:\par
+all: The default media type. Styles defined within this type apply to all devices.\par
+screen: Used for computer screens, tablets, smartphones, and other devices with screens.\par
+print: Used for printed documents. Styles within this type are applied when printing the web page.\par
+speech: Used for screen readers and other speech synthesisers.\par
+tv: Used for television-type devices.\par
+projection: Used for projectors and similar presentation devices.\par
+handheld: Used for handheld devices like mobile phones or tablets.\par
+braille: Used for braille tactile feedback devices.\par
+embossed: Used for paged braille printers.\par
+example \par
+<!-- Linking a stylesheet for print media -->\par
+<link rel="stylesheet" href="print.css" media="print">\par
+css\par
+Copy code\par
+/* Applying styles for screens with a maximum width of 600px */\par
+@media screen and (max-width: 600px) \{\par
+    body \{\par
+        font-size: 14px;\par
+    \}\b\par
+\}\par
+\fs36 Q-19 \f2  What is the rule set? \f0\par
+\b0\fs28 -In CSS (Cascading Style Sheets), a rule set, also known simply as a "rule," is a fundamental structure used to define how HTML elements should be styled. A rule set consists of two main parts: a selector and one or more declarations.\par
+- Selector: The selector determines which HTML elements the rule set will apply to. It can be an HTML element, class, ID, or any other valid CSS selector. For example, in the rule set below, h1 is the selector, meaning the styles will apply to all <h1> elements:\par
+example \par
+h1 \{\par
+    /* CSS properties and values */\par
+\}\par
+Declaration Block: The declaration block is enclosed within curly braces \{\} and contains one or more declarations. Each declaration consists of a CSS property and its corresponding value, separated by a colon :. Multiple declarations are separated by semicolons ;. \par
+example \par
+h1 \{\par
+    color: blue;\par
+    font-size: 24px;\par
+\}\par
+\fs36 Q-20 project\par
+\par
+\f2\fs22\par
+\f0\fs36\par
+}
+ 
